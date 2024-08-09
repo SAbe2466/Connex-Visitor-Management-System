@@ -7,6 +7,9 @@ import Login from './components/Login/login';
 import AcceptedPage from './components/AcceptedPage/accepted';
 import RejectPage from './components/RejectPage/rejectpage';
 import ThankyouPage from './components/ThankyouPage/thankyoupage';
+import HomePage from './components/HomePage Admin/homepage';
+import ProfileInfo from './components/ProfileInfo/Profile';
+
 function App() {
   return (
     <Router>
@@ -18,6 +21,8 @@ function App() {
         <Route path="/accepted-page" element={<AcceptedPage />} />
         <Route path="/reject-page" element={<RejectPage />} />
         <Route path="/thankyou-page" element={<ThankyouPage />} />
+        <Route path="/home-page" element={<HomePage />} />
+        <Route path="/profile-card" element={<ProfileInfo />} />
       </Routes>
     </Router>
   );

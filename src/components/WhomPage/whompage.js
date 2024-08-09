@@ -12,7 +12,10 @@ export default function WhomPage() {
         <h3>Whom do you want to meet ? </h3>
       </div>
       <div>
-        <select class="form-select" aria-label="Default select example">
+        <select
+          className="form-select form-select-lg"
+          aria-label="Default select example"
+        >
           <option selected>Open this select menu</option>
           <option value="1">One</option>
           <option value="2">Two</option>
@@ -20,14 +23,14 @@ export default function WhomPage() {
         </select>
       </div>
 
-      <div className="row d-flex  justify-content-end p-4">
+      <div className="row d-flex  justify-content-end p-4 jhh">
         <div className="col-2">
-          <button type="button" className="btn btn-primary">
+          <button type="button" className="btn btn-primary btn-lg ">
             Back
           </button>
         </div>
         <div className="col-2">
-          <button type="button" className="btn btn-success">
+          <button type="button" className="btn btn-success btn-lg">
             Submit
           </button>
         </div>
