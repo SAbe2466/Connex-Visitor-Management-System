@@ -1,0 +1,26 @@
+.sidebar {
+  background-color: #e8f6d9;
+  padding-top: 20px;}
+ 
+
+.sidebar .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.sidebar .btn i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.sidebar .btn:hover,
+.sidebar .btn.active {
+  background-color: #065a3a;
+  color: #fff;
+  transition: 0.3s;
+}

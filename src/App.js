@@ -9,6 +9,9 @@ import RejectPage from './components/RejectPage/rejectpage';
 import ThankyouPage from './components/ThankyouPage/thankyoupage';
 import HomePage from './components/HomePage Admin/homepage';
 import ProfileInfo from './components/ProfileInfo/Profile';
+import PersonalInfo from './components/PersonalInfo/personalinfo';
+import EventOverview from './components/EventOverview/event';
+import Sidebar from './components/Sidebar/sidebar'
 
 function App() {
   return (
@@ -23,6 +26,10 @@ function App() {
         <Route path="/thankyou-page" element={<ThankyouPage />} />
         <Route path="/home-page" element={<HomePage />} />
         <Route path="/profile-card" element={<ProfileInfo />} />
+        <Route path="/personal-info" element={<PersonalInfo />} />
+        <Route path="/event-overview" element={<EventOverview />} />
+        <Route path="/sidebar" element={<Sidebar/>} />
+
       </Routes>
     </Router>
   );

@@ -1,5 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
+import './Profile.css';
+import my from '../images/my.png';
 
 const ProfileInfo = () => {
   const [show, setShow] = useState(false);
@@ -30,7 +32,7 @@ const ProfileInfo = () => {
             <div className="modal-body">
               <div className="text-center mb-4">
                 <img
-                  src="https://via.placeholder.com/100"
+                  src={my}
                   alt="Profile"
                   className="rounded-circle img-thumbnail"
                 />

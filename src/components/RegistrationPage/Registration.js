@@ -32,7 +32,7 @@ const Registration = () => {
       </div>
       <form onSubmit={handleSubmit} className="card p-4">
         <div className="row mb-3">
-          <div className="col-2">
+          <div className="col-3 d-flex">
             <select
               className="form-select"
               name="title"
@@ -46,7 +46,7 @@ const Registration = () => {
               <option value="Ms">Ms</option>
             </select>
           </div>
-          <div className="col-5">
+          <div className="col-4">
             <input
               type="text"
               className="form-control"

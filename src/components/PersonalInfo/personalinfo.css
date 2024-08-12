@@ -1,0 +1,13 @@
+.profilemy{
+   height: 150px;
+   width: 150px;
+   align-items: center;
+}
+
+.feedback{
+    padding: 60px;
+}
+
+.feedbacktop{
+/* align-items: start; */
+}
