@@ -1,0 +1,29 @@
+/* .InterviewPage {
+  width: 80%;
+  margin-left: 300px;
+  padding-top: 50px;
+} */
+
+.d-flex {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px; /* Adjust width as necessary */
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.content-container {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 200px;
+}
+
+.table-responsive {
+  max-height: 400px;
+}
+
+.filter-buttons .input-group {
+  flex-grow: 1;
+}

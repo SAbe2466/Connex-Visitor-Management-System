@@ -11,7 +11,11 @@ import HomePage from './components/HomePage Admin/homepage';
 import ProfileInfo from './components/ProfileInfo/Profile';
 import PersonalInfo from './components/PersonalInfo/personalinfo';
 import EventOverview from './components/EventOverview/event';
-import Sidebar from './components/Sidebar/sidebar'
+import Sidebar from './components/Sidebar/sidebar';
+import Interview from './components/Interviews/interview';
+import Meetings from './components/Meetings/meeting';
+import Sessions from './components/Sessions/session';
+import Overview from'./components/OverviewPageAdmin/overview'
 
 function App() {
   return (
@@ -28,8 +32,11 @@ function App() {
         <Route path="/profile-card" element={<ProfileInfo />} />
         <Route path="/personal-info" element={<PersonalInfo />} />
         <Route path="/event-overview" element={<EventOverview />} />
-        <Route path="/sidebar" element={<Sidebar/>} />
-
+        <Route path="/sidebar" element={<Sidebar />} />
+        <Route path="/interview" element={<Interview />} />
+        <Route path="/meeting" element={<Meetings />} />
+        <Route path="/session" element={<Sessions />} />
+        <Route path="/overview" element={<Overview />} />
       </Routes>
     </Router>
   );

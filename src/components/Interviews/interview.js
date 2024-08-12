@@ -1,16 +1,16 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './event.css';
+import './interview.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Sidebar from '../Sidebar/sidebar';
 
-const EventOverview = () => {
+const Interview = () => {
   return (
     <div className="d-flex">
       <Sidebar />
       <div className="content-container">
         <div className="container-lg mt-5">
-          <h2 className="mb-4">Event Records</h2>
+          <h2 className="mb-4">Interviews</h2>
 
           <div className="filter-buttons mb-5 d-flex justify-content-between align-items-center">
             <div className="input-group ">
@@ -116,4 +116,4 @@ const EventOverview = () => {
   );
 };
 
-export default EventOverview;
+export default Interview;

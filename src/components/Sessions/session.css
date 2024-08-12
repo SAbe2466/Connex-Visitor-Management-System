@@ -1,3 +1,6 @@
+.sessionPage{
+    position: absolute;
+}
 .content-container {
     flex-grow: 1;
     padding: 20px;

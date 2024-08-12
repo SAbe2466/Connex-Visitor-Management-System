@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import './sidebar.css';
 import logo from '../images/Connex logo.jpg';
 
@@ -9,34 +9,34 @@ const Sidebar = () => {
   return (
     <div
       className="sidebar d-flex flex-column align-items-center pt-4"
-      style={{ backgroundColor: '#e8f6d9', height: '100vh', width: '220px' }}
+      style={{ backgroundColor: '#e8f6d9', height: '100%', width: '220px', position:'fixed' }}
     >
       <div className="logo mb-5">
         <img src={logo} alt=" Connex logo" style={{ width: '150px' }} />
       </div>
       <NavLink
-        to="/"
+        to="/overview"
         className="btn btn-success mb-3 w-75 rounded-pill text-start"
         activeClassName="active"
       >
         <i className="bi bi-house-door-fill me-2"></i> Overview
       </NavLink>
       <NavLink
-        to="/interviews"
+        to="/interview"
         className="btn btn-success mb-3 w-75 rounded-pill text-start"
         activeClassName="active"
       >
         <i className="bi bi-person-lines-fill me-2"></i> Interviews
       </NavLink>
       <NavLink
-        to="/meetings"
+        to="/meeting"
         className="btn btn-success mb-3 w-75 rounded-pill text-start"
         activeClassName="active"
       >
         <i className="bi bi-journal-bookmark-fill me-2"></i> Meetings
       </NavLink>
       <NavLink
-        to="/sessions"
+        to="/session"
         className="btn btn-success mb-3 w-75 rounded-pill text-start"
         activeClassName="active"
       >
@@ -47,10 +47,10 @@ const Sidebar = () => {
         className="btn btn-success mb-3 w-75 rounded-pill text-start"
         activeClassName="active"
       >
-        <i className="bi bi-calendar-event-fill me-2"></i> Events
+        <i className="bi bi-calendar-event-fill me-2 "></i> Events
       </NavLink>
       <NavLink
-        to="/appointments"
+        to="/appointment"
         className="btn btn-success mb-3 w-75 rounded-pill text-start"
         activeClassName="active"
       >
