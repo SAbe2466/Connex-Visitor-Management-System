@@ -8,6 +8,7 @@ export default function WhomPage() {
       <div className="text-center mb-4">
         <img src={logo} alt="Connex Logo" className="mb-2" />
       </div>
+      
       <div>
         <h3>Whom do you want to meet ? </h3>
       </div>

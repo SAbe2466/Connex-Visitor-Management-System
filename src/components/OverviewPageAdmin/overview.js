@@ -11,16 +11,16 @@ import interview from '../images/interview.png';
 const Overview = () => {
 
 const handleMeeting = () => {
-    alert("fghjklgfdtyu");
+    alert("Meeting");
 }
 const handleInterview = () => {
-    alert("fghjklgfdu");
+    alert("Interview");
 }
 const handleService= () => {
-    alert("fghjgfdtyu");
+    alert("Service");
 }
 const handleSession = () => {
-    alert("fghu");
+    alert("Session");
 }
   return (
     <>
@@ -53,7 +53,7 @@ const handleSession = () => {
 
           <div className="filter-buttons mb-5 d-flex justify-content-between align-items-center">
             <div className="input-group ">
-              <nav>
+              <nav>     
                 <input
                   type="text"
                   className="form-control"
@@ -119,11 +119,11 @@ const handleSession = () => {
                     <input type="checkbox" />
                   </td>
                   <td>#7676</td>
-                  <td>06/30/2022</td>
-                  <td>Ramesh</td>
-                  <td>Chaudhary</td>
+                  <td>09/24/2022</td>
+                  <td>Abe</td>
+                  <td>San</td>
                   <td>dkuwhd@gyef.com</td>
-                  <td>Lalitpur</td>
+                  <td>Hatton</td>
                   <td>
                     <span className="btn btn-warning status-pending">
                       Pending

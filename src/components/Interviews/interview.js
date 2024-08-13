@@ -62,13 +62,13 @@ const Interview = () => {
                 <tr>
                   <td>
                     <input type="checkbox" />
-                  </td>
+                    </td>
                   <td>#7676</td>
-                  <td>06/30/2022</td>
-                  <td>Ramesh</td>
-                  <td>Chaudhary</td>
-                  <td>abhds@hjk.com</td>
-                  <td>Lalitpur</td>
+                  <td>09/24/2022</td>
+                  <td>Abe</td>
+                  <td>San</td>
+                  <td>dkuwhd@gyef.com</td>
+                  <td>Hatton</td>
                   <td>
                     <span className="btn btn-success status-accepted">
                       Accepted

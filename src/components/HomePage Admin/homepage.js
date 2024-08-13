@@ -28,7 +28,7 @@ const HomePage = () => {
             <h1 className="text-center"> Visitor Management System</h1>
             <h1 className="text-center">Admin Portral</h1>
           </div>
-          <form onSubmit={handleSubmit} childrenlassName=" card p-4">
+          <form onSubmit={handleSubmit} childrenclassName=" card p-4">
             <div className="row mb-3">
               <div className="row p-3 input-group-lg">
                 <input
